@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif; 
+    background-color: rgb(23, 185, 221); 
+    text-align: center;
+    color: white; 
+    display: flex; 
+    flex-direction: column; 
+    align-content: center; 
+    justify-content: flex-start; 
+    height: 100%; 
+}
+
+h3{
+    white-space: pre-wrap;
+}
+
+button {
+    background-color: white; 
+    border: 0px; 
+    height: 30px; 
+    width: 120px; 
+    border-radius: 5px; 
+    margin: 3px; 
+}
+
+input[type="text"] {
+    height: 30px; 
+    border-radius: 5px; 
+    border: 1px solid white;
+    margin: 20px; 
+    width: 150px; 
+}
+
+#counter {
+    justify-content: space-around; 
+    align-items: center;
+    height: auto; 
+    padding-left: 50px; 
+    padding-right: 50px; 
+}
+
+.controls{
+    display:flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
